@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1959525527B6FF8F00C589F4 /* OmdbDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1959525427B6FF8F00C589F4 /* OmdbDataModel.m */; };
+		199B48A827B5FCC8006C535B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 199B48A727B5FCC8006C535B /* AppDelegate.m */; };
+		199B48AB27B5FCC8006C535B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 199B48AA27B5FCC8006C535B /* SceneDelegate.m */; };
+		199B48AE27B5FCC8006C535B /* OmdbSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 199B48AD27B5FCC8006C535B /* OmdbSearchViewController.m */; };
+		199B48B127B5FCC8006C535B /* OmdbSearch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 199B48AF27B5FCC8006C535B /* OmdbSearch.storyboard */; };
+		199B48B327B5FCC9006C535B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 199B48B227B5FCC9006C535B /* Assets.xcassets */; };
+		199B48B627B5FCC9006C535B /* OmdbLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 199B48B427B5FCC9006C535B /* OmdbLaunchScreen.storyboard */; };
+		199B48B927B5FCC9006C535B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 199B48B827B5FCC9006C535B /* main.m */; };
+		19B66A7927B641A000C6C895 /* OmdbMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B66A7827B641A000C6C895 /* OmdbMovie.m */; };
+		19B66A7C27B6444C00C6C895 /* OmdbMovieTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B66A7B27B6444C00C6C895 /* OmdbMovieTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1959525327B6FF8F00C589F4 /* OmdbDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OmdbDataModel.h; sourceTree = "<group>"; };
+		1959525427B6FF8F00C589F4 /* OmdbDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OmdbDataModel.m; sourceTree = "<group>"; };
+		199B48A327B5FCC8006C535B /* OmdbSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OmdbSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		199B48A627B5FCC8006C535B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		199B48A727B5FCC8006C535B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		199B48A927B5FCC8006C535B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		199B48AA27B5FCC8006C535B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		199B48AC27B5FCC8006C535B /* OmdbSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OmdbSearchViewController.h; sourceTree = "<group>"; };
+		199B48AD27B5FCC8006C535B /* OmdbSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OmdbSearchViewController.m; sourceTree = "<group>"; };
+		199B48B027B5FCC8006C535B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/OmdbSearch.storyboard; sourceTree = "<group>"; };
+		199B48B227B5FCC9006C535B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		199B48B527B5FCC9006C535B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/OmdbLaunchScreen.storyboard; sourceTree = "<group>"; };
+		199B48B727B5FCC9006C535B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		199B48B827B5FCC9006C535B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19B66A7727B641A000C6C895 /* OmdbMovie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OmdbMovie.h; sourceTree = "<group>"; };
+		19B66A7827B641A000C6C895 /* OmdbMovie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OmdbMovie.m; sourceTree = "<group>"; };
+		19B66A7A27B6444C00C6C895 /* OmdbMovieTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OmdbMovieTableViewCell.h; sourceTree = "<group>"; };
+		19B66A7B27B6444C00C6C895 /* OmdbMovieTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OmdbMovieTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		199B48A027B5FCC8006C535B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1919D92D27B638E80096A97E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				19B66A7727B641A000C6C895 /* OmdbMovie.h */,
+				19B66A7827B641A000C6C895 /* OmdbMovie.m */,
+				1959525327B6FF8F00C589F4 /* OmdbDataModel.h */,
+				1959525427B6FF8F00C589F4 /* OmdbDataModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1919D92E27B638F00096A97E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				199B48AC27B5FCC8006C535B /* OmdbSearchViewController.h */,
+				199B48AD27B5FCC8006C535B /* OmdbSearchViewController.m */,
+				19B66A7A27B6444C00C6C895 /* OmdbMovieTableViewCell.h */,
+				19B66A7B27B6444C00C6C895 /* OmdbMovieTableViewCell.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1919D92F27B638FC0096A97E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				199B48AF27B5FCC8006C535B /* OmdbSearch.storyboard */,
+				199B48B427B5FCC9006C535B /* OmdbLaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		199B489A27B5FCC8006C535B = {
+			isa = PBXGroup;
+			children = (
+				199B48A527B5FCC8006C535B /* OmdbSearch */,
+				199B48A427B5FCC8006C535B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		199B48A427B5FCC8006C535B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				199B48A327B5FCC8006C535B /* OmdbSearch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		199B48A527B5FCC8006C535B /* OmdbSearch */ = {
+			isa = PBXGroup;
+			children = (
+				1919D92F27B638FC0096A97E /* Storyboards */,
+				1919D92E27B638F00096A97E /* Controllers */,
+				1919D92D27B638E80096A97E /* Models */,
+				199B48A627B5FCC8006C535B /* AppDelegate.h */,
+				199B48A727B5FCC8006C535B /* AppDelegate.m */,
+				199B48A927B5FCC8006C535B /* SceneDelegate.h */,
+				199B48AA27B5FCC8006C535B /* SceneDelegate.m */,
+				199B48B227B5FCC9006C535B /* Assets.xcassets */,
+				199B48B727B5FCC9006C535B /* Info.plist */,
+				199B48B827B5FCC9006C535B /* main.m */,
+			);
+			path = OmdbSearch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		199B48A227B5FCC8006C535B /* OmdbSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 199B48BC27B5FCC9006C535B /* Build configuration list for PBXNativeTarget "OmdbSearch" */;
+			buildPhases = (
+				199B489F27B5FCC8006C535B /* Sources */,
+				199B48A027B5FCC8006C535B /* Frameworks */,
+				199B48A127B5FCC8006C535B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OmdbSearch;
+			productName = OmdbSearch;
+			productReference = 199B48A327B5FCC8006C535B /* OmdbSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		199B489B27B5FCC8006C535B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					199B48A227B5FCC8006C535B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 199B489E27B5FCC8006C535B /* Build configuration list for PBXProject "OmdbSearch" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 199B489A27B5FCC8006C535B;
+			productRefGroup = 199B48A427B5FCC8006C535B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				199B48A227B5FCC8006C535B /* OmdbSearch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		199B48A127B5FCC8006C535B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199B48B627B5FCC9006C535B /* OmdbLaunchScreen.storyboard in Resources */,
+				199B48B327B5FCC9006C535B /* Assets.xcassets in Resources */,
+				199B48B127B5FCC8006C535B /* OmdbSearch.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		199B489F27B5FCC8006C535B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1959525527B6FF8F00C589F4 /* OmdbDataModel.m in Sources */,
+				199B48AE27B5FCC8006C535B /* OmdbSearchViewController.m in Sources */,
+				199B48A827B5FCC8006C535B /* AppDelegate.m in Sources */,
+				19B66A7C27B6444C00C6C895 /* OmdbMovieTableViewCell.m in Sources */,
+				19B66A7927B641A000C6C895 /* OmdbMovie.m in Sources */,
+				199B48B927B5FCC9006C535B /* main.m in Sources */,
+				199B48AB27B5FCC8006C535B /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		199B48AF27B5FCC8006C535B /* OmdbSearch.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				199B48B027B5FCC8006C535B /* Base */,
+			);
+			name = OmdbSearch.storyboard;
+			sourceTree = "<group>";
+		};
+		199B48B427B5FCC9006C535B /* OmdbLaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				199B48B527B5FCC9006C535B /* Base */,
+			);
+			name = OmdbLaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		199B48BA27B5FCC9006C535B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		199B48BB27B5FCC9006C535B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		199B48BD27B5FCC9006C535B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OmdbSearch/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = OmdbSearchLaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = OmdbSearch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jgorospe.OmdbSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		199B48BE27B5FCC9006C535B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OmdbSearch/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = OmdbSearchLaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = OmdbSearch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jgorospe.OmdbSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		199B489E27B5FCC8006C535B /* Build configuration list for PBXProject "OmdbSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199B48BA27B5FCC9006C535B /* Debug */,
+				199B48BB27B5FCC9006C535B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		199B48BC27B5FCC9006C535B /* Build configuration list for PBXNativeTarget "OmdbSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199B48BD27B5FCC9006C535B /* Debug */,
+				199B48BE27B5FCC9006C535B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 199B489B27B5FCC8006C535B /* Project object */;
+}
