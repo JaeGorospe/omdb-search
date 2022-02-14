@@ -12,7 +12,6 @@
 
 @interface OmdbSearchViewController ()
 
-/* Storyboard Elements */
 @property (weak, nonatomic) IBOutlet UITableView *landingScreenTableview;
 
 @property (nonatomic, strong) NSMutableArray<OmdbMovie*> *movies;
@@ -38,8 +37,9 @@
     UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Unable To Find Movie"
                                                                message:@"The keywords you entered are not specific enough. Please try again."
                                                         preferredStyle:UIAlertControllerStyleAlert];
-    UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault
-                                                      handler:^(UIAlertAction * action) {}];
+    UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"OK"
+                                                            style:UIAlertActionStyleDefault
+                                                          handler:^(UIAlertAction * action) {}];
     [alert addAction:defaultAction];
     [self presentViewController:alert animated:YES completion:nil];
 }
